@@ -1,0 +1,16 @@
+.about-me {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	font-family: 'Times New Roman', Times, serif;
+}
+
+.photo-of-me {
+	height: 250px;
+	width: 250px;
+	border: solid blue 5px;
+	align-self: center;
+	margin: 20px;
+}

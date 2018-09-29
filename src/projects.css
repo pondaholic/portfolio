@@ -1,0 +1,36 @@
+.Projects {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	background-color: rgb(1, 10, 53);
+}
+
+.bk-app {
+	color: white;
+	height: 300px;
+	width: 500px;
+	padding: 20px;
+	border: gray 3px;
+	border-style: inset;
+	margin: 20px;
+}
+
+.mtg-app {
+	color: white;
+	height: 300px;
+	width: 500px;
+	padding: 20px;
+	border: gray 3px;
+	border-style: inset;
+	margin: 20px;
+}
+
+.kanben-app {
+	color: white;
+	height: 300px;
+	width: 500px;
+	padding: 20px;
+	border: gray 3px;
+	border-style: inset;
+	margin: 20px;
+}
