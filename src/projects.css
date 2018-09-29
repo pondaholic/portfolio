@@ -6,20 +6,19 @@
 	color: white;
 }
 
-.bk-app {
+img {
+	height: 100%;
+}
+.deck-app {
 	color: white;
-	height: 150px;
-	width: 500px;
-	padding: 20px;
-	border: gray 3px;
-	border-style: inset;
-	margin: 20px;
+	height: 300px;
+	width: auto;
 }
 
 .mtg-app {
 	color: white;
-	height: 150px;
-	width: 500px;
+	height: 300px;
+	width: auto;
 	padding: 20px;
 	border: gray 3px;
 	border-style: inset;
