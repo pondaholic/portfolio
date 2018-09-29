@@ -9,13 +9,15 @@ export default function Projects(props) {
 				<h3>
 					An App to Create Your Dream <i>Magic the Gathering </i> Deck
 				</h3>
+				<li />
 				<p>
-					Frontend using:
-					<b>React, HTML, CSS</b>
+					<b>React, HTML, CSS, JavaScript, & JQuery</b>
 				</p>
 				<p>
-					Backend using:
-					<b>Node.js</b>
+					<b>Node.js & Express </b>
+				</p>
+				<p>
+					<b>PostgresQL</b>
 				</p>
 				<a
 					href="https://github.com/thinkful-ei23/shelly-mtg-app"
