@@ -5,19 +5,20 @@
 	flex-wrap: wrap;
 	background-color: rgb(1, 10, 53);
 	color: white;
-	height: 500px;
+	height: auto;
 }
 
 img {
-	height: 100%;
+	max-width: 300px;
+	padding: 10px;
 }
 .deck-app {
 	color: white;
-	height: 300px;
+	height: auto;
 	width: auto;
 }
 
-.mtg-app {
+.bookmarks {
 	color: white;
 	height: 300px;
 	width: auto;

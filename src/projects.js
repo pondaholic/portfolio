@@ -26,7 +26,7 @@ export default function Projects(props) {
 					<img src={Mtg} />
 				</a>
 			</div>
-			<div className="mtg-app">Create Your Dream MTG Deck!</div>
+			<div className="bookmarks">Something About Bookmarks</div>
 			<div className="kanben-app">How's Your Productivity?</div>
 		</div>
 	);
