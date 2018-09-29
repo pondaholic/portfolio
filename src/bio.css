@@ -1,16 +1,26 @@
 .about-me {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	justify-content: center;
+	margin-bottom: 10px;
 }
 
 p {
-	font-family: 'Times New Roman', Times, serif;
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.photo-of-me {
-	height: 250px;
+.intro {
+	height: auto;
 	width: 250px;
-	border: solid blue 5px;
+	border: 5px;
 	align-self: center;
 	margin: 20px;
+}
+
+.skills {
+	margin: 20px;
+}
+
+img {
+	margin: 10px;
 }

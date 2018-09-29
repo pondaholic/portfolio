@@ -17,9 +17,8 @@ export default class Portfolio extends React.Component {
 		return (
 			<div className="Portfolio">
 				<header className="Portfolio-header">
-					{/* <img src={logo} className="App-logo" alt="logo" /> */}
 					<h1 className="App-title">Shelly Leung</h1>
-					<h2>Full Stack Developer</h2>
+					<h2>I Love Backend & Databases</h2>
 				</header>
 				<Navbar />
 				<main>
