@@ -1,6 +1,7 @@
 import React from 'react';
 import './projects.css';
 import Mtg from './images/mtg.png';
+import Bookmarker from './images/bookmark.png';
 
 export default function Projects(props) {
 	return (
@@ -26,8 +27,25 @@ export default function Projects(props) {
 					<img src={Mtg} />
 				</a>
 			</div>
-			<div className="bookmarks">Something About Bookmarks</div>
-			<div className="kanben-app">How's Your Productivity?</div>
+			<div className="bookmarks">
+				<h3>Something About Bookmarks</h3>
+				<li />
+				<p>
+					<b>React, HTML, CSS, JavaScript</b>
+				</p>
+				<p>
+					<b>Node.js & Express</b>
+				</p>
+				<p>
+					<b>MongoDB</b>
+				</p>
+				<a href="#">
+					<img src={Bookmarker} />
+				</a>
+			</div>
+			<div className="kanben-app">
+				<h3>How's Your Productivity?</h3>
+			</div>
 		</div>
 	);
 }
