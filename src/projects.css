@@ -3,9 +3,9 @@
 	flex-direction: row;
 	justify-content: space-around;
 	flex-wrap: wrap;
-	background-color: rgb(1, 10, 53);
-	color: white;
+	background-image: linear-gradient(#fff, rgb(241, 241, 241));
 	height: auto;
+	border-top: solid 1px gray;
 }
 
 img {
@@ -14,19 +14,16 @@ img {
 }
 
 .deck-app {
-	color: white;
 	height: auto;
 	width: auto;
 }
 
 .bookmarks {
-	color: white;
 	height: auto;
 	width: auto;
 }
 
 .kanben-app {
-	color: white;
 	height: 150px;
 	width: 500px;
 	padding: 20px;

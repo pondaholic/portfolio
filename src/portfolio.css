@@ -1,12 +1,18 @@
 .Portfolio {
 	text-align: center;
+	background: #fff;
+	padding: 30px;
+	position: relative;
 }
 
 .Portfolio-header {
-	background-color: rgb(0, 15, 102);
-	height: 150px;
+	height: auto;
 	padding: 20px;
-	color: white;
+}
+
+h1 {
+	font-family: 'Montserrat Subrayada', sans-serif;
+	font-size: 30px;
 }
 
 .Portfolio-title {

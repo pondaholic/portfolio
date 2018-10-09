@@ -12,7 +12,7 @@ export default function Bio(props) {
 			<div className="intro">
 				<h3>It's All About ME!!</h3>
 				<b>Evil Laugh</b>
-				<p>This is all about Me.</p>
+				<p>Hi.</p>
 			</div>
 
 			<div className="skills">

@@ -6,8 +6,12 @@
 	margin-bottom: 10px;
 }
 
+h3 {
+	font-family: 'Esteban', serif;
+}
+
 p {
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	font-family: 'Montserrat Subrayada', sans-serif;
 }
 
 .intro {
