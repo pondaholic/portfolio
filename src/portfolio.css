@@ -1,24 +1,45 @@
-.Portfolio {
+.portfolio {
+	background-image: url('./portfolio.jpg');
+	background-size: cover;
+	height: 1000px;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: 'one one one' 'two two two' 'three three three';
+	color: white;
+}
+
+.project-1 {
+	grid-area: one;
+	padding: 50px;
+}
+
+.project-2 {
+	grid-area: two;
+	padding: 50px;
+}
+
+.project-3 {
+	grid-area: three;
+	padding: 50px;
+}
+
+.portfolio h3 {
+	padding: 10px;
+	margin: auto;
 	text-align: center;
-	background: #fff;
-	padding: 30px;
-	position: relative;
+	font-size: 16px;
 }
 
-.Portfolio-header {
-	height: auto;
-	padding: 20px;
+.portfolio p {
+	padding: 3px;
 }
 
-h1 {
-	font-family: 'Montserrat Subrayada', sans-serif;
-	font-size: 30px;
+img {
+	width: 60%;
+	float: right;
 }
 
-.Portfolio-title {
-	font-size: 1.5em;
-}
-
-.Portfolio-intro {
-	font-size: large;
+.portfolio a {
+	color: white;
+	text-decoration-line: underline;
 }

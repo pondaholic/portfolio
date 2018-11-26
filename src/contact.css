@@ -1,5 +1,40 @@
 .contact-form {
-	text-align: justify;
-	padding-left: 20%;
-	padding-right: 20%;
+	background-image: url('./contact-me.jpg');
+	background-size: cover;
+	color: white;
+	height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-form form {
+	margin: 10px auto;
+	height: auto;
+	width: 350px;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.contact-form p {
+	margin: 10px auto;
+	height: auto;
+	width: 350px;
+}
+
+.contact-form input {
+	margin: 5px auto;
+	width: 300px;
+	height: 20px;
+	justify-self: center;
+}
+
+textarea {
+	width: 300px;
+	height: 150px;
+}
+
+.contact-form button {
+	width: 80px;
+	margin: 5px;
 }

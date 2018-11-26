@@ -1,17 +1,22 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
+
 import './navbar.css';
 
-//**The anchor points need to be changed to Link when routing things out */
-
-export default function Navbar(props) {
+export default function NavBar() {
 	return (
 		<div className="navbar">
-			<nav>
-				<a href="#bio">About Me</a>
-				<a href="#projects">Projects</a>
-				<a href="#blog">Thoughts</a>
-				<a href="#contact">Contact Me</a>
-			</nav>
+			<ul>
+				<li>
+					<Link to="/me">About Me</Link>
+				</li>
+				<li>
+					<Link to="/portfolio">Portfolio</Link>
+				</li>
+				<li>
+					<Link to="/contact">Let's Build Something</Link>
+				</li>
+			</ul>
 		</div>
 	);
 }

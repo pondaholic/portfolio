@@ -1,0 +1,23 @@
+.welcome {
+	display: flex;
+	flex-direction: column;
+	margin: 250px auto;
+}
+
+.welcome p {
+	margin-bottom: 10px;
+}
+
+.written {
+	font-size: 18px;
+	color: white;
+	margin-left: 40px;
+}
+
+.written-body p {
+	font-size: 18px;
+	color: white;
+	margin-left: 75px;
+	margin-top: 5px;
+	text-align: left;
+}
